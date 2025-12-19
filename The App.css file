@@ -1,0 +1,51 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Landing Page Background */
+.landing-page {
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay content styling */
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.landing-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.landing-content button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing-content button:hover {
+  background-color: #45a049;
+}
