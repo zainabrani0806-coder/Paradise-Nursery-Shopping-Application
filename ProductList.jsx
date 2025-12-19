@@ -79,3 +79,51 @@ const ProductList = () => {
 };
 
 export default ProductList;
+//css
+.product-list-container {
+  padding: 20px;
+}
+
+.category-title {
+  margin-top: 30px;
+  color: #2e7d32;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-card button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #388e3c;
+}
+
